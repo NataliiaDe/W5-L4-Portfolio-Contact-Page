@@ -1,3 +1,76 @@
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.about-section{
+    padding: 160px 20px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.btn-branding{
+    
+    color: #ffff;
+    background:  #6C63FF;
+    height: 63px;
+width: 200px;
+left: 979px;
+top: 1074px;
+border-radius: 4px;
+padding: 18px 30px 18px 30px;
+
+}
+
+h1{
+    font-family: Playfair Display;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+font-family: Playfair Display;
+font-size: 64px;
+font-weight: 700;
+line-height: 85px;
+
+}
+
+h2{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.container{
+    width: 100%;
+}
+
+@media(max-width: 900px){
+.about-section{
+    text-align: center;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+}
+
 .container{
     text-align: center;
 }
