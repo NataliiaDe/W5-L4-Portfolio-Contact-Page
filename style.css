@@ -45,6 +45,10 @@ line-height: 85px;
 
 }
 
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+}
 
 h3, p{
     text-align: left;
