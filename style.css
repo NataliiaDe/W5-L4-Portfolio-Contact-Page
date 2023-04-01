@@ -60,8 +60,10 @@ text-align: left;
 
 }
 
-.container{
-    width: 100%;
+
+
+.content-container{
+    padding: 160px 20px;
 }
 
 @media(max-width: 900px){
@@ -72,13 +74,44 @@ h1{
 
 .content{
     text-align: center;
+    margin: 30px;
 }
 }
 
+@media(min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+
+@media(min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
 
 
 .container{
     text-align: center;
+    width: 100%;
 }
 
 .content h3 {
