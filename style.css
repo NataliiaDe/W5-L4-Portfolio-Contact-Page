@@ -46,6 +46,10 @@ line-height: 85px;
 
 }
 
+h3, p{
+    text-align: left;
+}
+
 h2{
     font-family: Poppins;
 font-size: 18px;
